@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../BodyStyle/Style.css" rel="Stylesheet" />
+    <link href="../Stylesheet/HoverableMenuRight.css" rel="Stylesheet" />
+    <link href="../Stylesheet/HoverableMenuBottom.css" rel="Stylesheet" />
+    <link href="../Stylesheet/ImageGallery.css" rel="Stylesheet" />
+    <link href="../css/all.min.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/8efd96b4b3.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="PaddingHorizontal">
+    <div class="Sticky DisplayOnTop Background">
+        <ul class="RowColumn Full Background BorderBottom">
+          <li>
+            <a href="#" class="FontColor1 Bold2">FANTASMA </a><a>| Collective</a>
+          </li>
+          <li class="Right ColorChangeonHover">
+            <a class="FontColor1 Bold1" href="#Home">Home</a>
+          </li>
+          <li class="ColorChangeonHover">
+            <a class="Bold1 FontColor1" href="#About">About Us</a>
+          </li>
+          <li class="ColorChangeonHover">
+            <a class="Bold1 FontColor1" href="#Review">Leave a Review</a>
+          </li>
+          <li class="ColorChangeonHover">
+            <a class="Bold1 FontColor1" href="#More">More</a>
+          </li>
+        </ul>
+    <div class="Full">
+        <ul class="RowColumn Full Background Center BorderBottom ">
+          <li class="dropdown ColorChangeonHover PaddingHorizontal">
+            <a href="#About" class="Bold1 dropbtn">Mens</a>
+            <div class="dropdown-content">
+              <div class="Row SpacedBetween">
+                  <ul class="Column">
+                    <li><a href="#">New in</a></li>
+                    <li><a href="#">Coats & Jackets</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#">Nightwear & Loungewear</a></li>
+                    <li><a href="#">Hoodies</a></li>
+                    <li><a href="#">Knitwear</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  <ul class="Column">
+                    <li><a href="#">Sales</a></li>
+                    <li><a href="#">Autumn</a></li>
+                    <li><a href="#">Hot in</a></li>
+                  </ul>
+                  </div>
+              </div>
+          </li>
+        
+          <li class="dropdown ColorChangeonHover PaddingHorizontal">
+            <a href="#About" class="Bold1 dropbtn">Womens</a>
+            <ul class="dropdown-content Column">
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Hot in</a></li>
+            </ul>
+          </li>
+
+          <li class="PaddingHorizontal ColorChangeonHover">
+            <a href="#About" class="Bold1">Seasonal Promotions</a>
+          </li>
+          <li class="PaddingHorizontal ColorChangeonHover"><a class="Bold1" href="./WebsitePages/NewArrivals.html">New Arrivals</a></li>
+          <li class="PaddingHorizontal ColorChangeonHover"><a class="Bold1">Sales</a></li>
+      </div>
+    </div>
+    <div style="text-align:center">
+        <h2>Tabbed Image Gallery</h2>
+        <p>Click on the images below:</p>
+      </div>
+      
+      <!-- The four columns -->
+      <div class="Column PaddingHorizontal">
+          <div>
+        <div id="Container" class="column">
+          <img id="img" src="../Canteens/gor-davtyan-0BIvjaQwvQQ-unsplash.jpg" alt="Nature" style="width:50%" onclick="GalleryFunction(this);">
+          <img src="../Canteens/jonathan-borba-kjh70RMHDco-unsplash.jpg" alt="Lights" style="width:50%" onclick="GalleryFunction(this);">
+          <img src="../Canteens/jose-murillo-svzLN-hSvBQ-unsplash.jpg" alt="Snow" style="width:50%" onclick="GalleryFunction(this);">
+          
+        </div>
+        <div id="Container" class="column">
+            <img id="img" src="../Canteens/gor-davtyan-0BIvjaQwvQQ-unsplash.jpg" alt="Nature" style="width:50%" onclick="GalleryFunction(this);">
+            <img src="../Canteens/jonathan-borba-kjh70RMHDco-unsplash.jpg" alt="Lights" style="width:50%" onclick="GalleryFunction(this);">
+            <img src="../Canteens/jose-murillo-svzLN-hSvBQ-unsplash.jpg" alt="Snow" style="width:50%" onclick="GalleryFunction(this);">
+        </div>
+        <div  id="Container" class="column">
+            <img id="img" src="../Canteens/gor-davtyan-0BIvjaQwvQQ-unsplash.jpg" alt="Nature" style="width:50%" onclick="GalleryFunction(this);">
+            <img src="../Canteens/jonathan-borba-kjh70RMHDco-unsplash.jpg" alt="Lights" style="width:50%" onclick="GalleryFunction(this);">
+            <img src="../Canteens/jose-murillo-svzLN-hSvBQ-unsplash.jpg" alt="Snow" style="width:50%" onclick="GalleryFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container PaddingHorizontal">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      
+    
+    </div>
+    
+  
+
+  </body>
+  <script src="./cmsGalleryImages.js"></script>
+
+</html>
